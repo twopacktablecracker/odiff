@@ -23,18 +23,6 @@ jobs:
             artifact: "linux-arm64"
             ocaml-compiler: "ocaml-variants.5.2.0+options,ocaml-option-flambda"
             triplet: "arm64-linux"
-          - os: windows-latest
-            artifact: "windows-x64"
-            ocaml-compiler: "ocaml-variants.5.2.0+options,ocaml-option-flambda"
-            triplet: "x64-mingw-static"
-          - os: macos-latest
-            artifact: "macos-arm64"
-            ocaml-compiler: "ocaml-variants.5.2.0+options,ocaml-option-flambda"
-            triplet: "arm64-osx"
-          - os: macos-13
-            artifact: "macos-x64"
-            ocaml-compiler: "ocaml-variants.5.2.0+options,ocaml-option-flambda"
-            triplet: "x64-osx"
     defaults:
       run:
         shell: bash
