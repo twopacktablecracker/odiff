@@ -19,10 +19,10 @@ jobs:
             artifact: "linux-x64"
             ocaml-compiler: "ocaml-variants.5.2.0+options,ocaml-option-flambda"
             triplet: "x64-linux"
-          - os: ubuntu-24.04-arm
-            artifact: "linux-arm64"
+          - os: macos-latest
+            artifact: "macos-arm64"
             ocaml-compiler: "ocaml-variants.5.2.0+options,ocaml-option-flambda"
-            triplet: "arm64-linux"
+            triplet: "arm64-osx"
     defaults:
       run:
         shell: bash
